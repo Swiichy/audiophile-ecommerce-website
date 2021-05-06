@@ -1,0 +1,48 @@
+//FONT
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+//COLORS
+:root {
+    --primary-orange: #D87D4A;
+    --primary-black: #101010; 
+    --primary-grey: #F1F1F1;
+    --primary-white: #FAFAFA;
+
+    --secondary-orange: #FBAF85;
+    --secondary-white: #FFFFFF;
+    --secondary-black: #000000;
+}
+//BUTTON
+.firstButton {
+   background: var(--primary-orange);
+   font-weight: bold;
+   font-size: 13px;
+   line-height: 18px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: var(--secondary-white);
+   padding: 15px 29.5px 15px 31.5px;
+   transition: 200ms ease-in-out;
+}
+.firstButton:hover {
+    background: var(--secondary-orange);
+    transition: 200ms ease-in-out;
+}
+
+.secondButton {
+    background: var(--secondary-white);
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--secondary-black);
+    border: 1px solid var(--secondary-black);
+    padding: 14px 28.5px 14px 30.5px;
+    transition: 200ms ease-in-out;
+}
+.secondButton:hover {
+    background: var(--secondary-black);
+    color: var(--secondary-white);
+    transition: 200ms ease-in-out;
+}
+
